@@ -17,7 +17,7 @@ context('TextBox', () => {
         elemPage.verifySelectedCheckboxes()
     })
 
-    it.only('Radiobuttons check', () => {
+    it('Radiobuttons check', () => {
         elemPage.goToRadioForm()
 
         elemPage.clickYesRadio()
